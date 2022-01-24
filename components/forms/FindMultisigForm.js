@@ -46,7 +46,7 @@ class FindMultisigForm extends React.Component {
             name="address"
             placeholder={exampleAddress()}
           />
-          <Button label="Use this Multisig" onClick={() => this.handleSearch()} primary />
+          <Button className="btn-sign" label="Use this Multisig" onClick={() => this.handleSearch()} primary />
         </StackableContainer>
         <StackableContainer lessPadding>
           <p className="create-help">Don't have a multisig?</p>
@@ -57,6 +57,9 @@ class FindMultisigForm extends React.Component {
             display: flex;
             flex-direction: column;
             align-items: center;
+          }
+         button.primary{
+            background: rgba(229, 9, 19, 1 ) !important;
           }
           .error {
             color: coral;

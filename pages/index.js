@@ -8,7 +8,7 @@ const MultiPage = () => (
   <Page>
     <StackableContainer base>
       <StackableContainer lessPadding>
-        <h1 className="title">Cosmoshub Multisig Manager</h1>
+        <h1 className="title">Persistence Multisig Manager</h1>
       </StackableContainer>
       <FindMultisigForm />
     </StackableContainer>

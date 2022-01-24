@@ -23,7 +23,7 @@ const Button = (props) => (
       .button {
         display: block;
         border-radius: 10px;
-        background: rgba(255, 255, 255, 0.15);
+        background: rgba(229, 9, 19, 1 ) !important;
         border: none;
         padding: 12px 0;
         font-size: 1rem;
@@ -34,7 +34,7 @@ const Button = (props) => (
         text-align: center;
       }
       .primary {
-        border: 2px solid white;
+        border: 0px solid white;
       }
 
       button:first-child {

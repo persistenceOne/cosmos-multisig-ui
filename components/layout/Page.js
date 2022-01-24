@@ -6,7 +6,7 @@ import StackableContainer from "./StackableContainer";
 const Page = (props) => {
   return (
     <div className="page">
-      <Head title={props.title || "Cosmos Multisig Manager"} />
+      <Head title={props.title || "Persistence Multisig Manager"} />
       <div className="container">
         {props.rootMultisig && (
           <div className="nav">
@@ -27,6 +27,7 @@ const Page = (props) => {
         </StackableContainer>
       </div>
       <style jsx>{`
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
         .page {
           display: flex;
           justify-content: center;
@@ -34,6 +35,10 @@ const Page = (props) => {
         }
         .container {
           position: relative;
+          
+        }
+        button {
+          background: rgba(229, 9, 19, 1 ) !important;
         }
         .nav {
           position: absolute;
@@ -53,11 +58,10 @@ const Page = (props) => {
       `}</style>
       <style global jsx>{`
         body {
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-            Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+          font-family: 'Poppins', sans-serif;
           color: white;
           min-height: 100vh;
-          background: linear-gradient(240.16deg, #3f023c 10.46%, #561253 54.88%, #580a55 94.89%);
+          background: radial-gradient(99.06% 99.06% at 49.65% .94%,#222426 0,#282932 100%);
           font-size: 16px;
           margin: 0;
         }
