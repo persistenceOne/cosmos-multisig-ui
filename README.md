@@ -2,9 +2,9 @@
 
 This app allows for multisig users to create, sign and broadcast transactions on any stargate enabled chain. It's built with Cosmjs, Next.js, FaunaDB and Vercel.
 
-[The app is live here](https://cosmoshub-legacy-multisig.vercel.app/).
+[The app is live here](https://persistence-multisig-ui.vercel.app).
 
-[Here is a user guide on how to use the app](https://github.com/samepant/cosmoshub-legacy-multisig/blob/master/docs/App%20User%20Guide.md)
+[Here is a user guide on how to use the app](https://github.com/persistenceOne/persistence-multisig-ui/blob/master/docs/App%20User%20Guide.md)
 
 ## Running your own instance
 
